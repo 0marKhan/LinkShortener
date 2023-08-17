@@ -1,0 +1,24 @@
+.center-position {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 2rem 0 2rem;
+}
+.input-box {
+  font-size: 1.07rem;
+  text-indent: 1rem;
+  width: 20rem;
+  border: none;
+  outline: none;
+}
+
+.shorten-button {
+  font-size: 1.07rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: hsl(267, 37%, 52%);
+  width: 6rem;
+  height: 3rem;
+  border: none;
+  cursor: pointer;
+}

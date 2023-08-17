@@ -1,0 +1,34 @@
+.text-center-allign {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 2rem 0 2rem;
+}
+
+.boujee-text {
+  --bg-size: 400%;
+  --color-one: hsl(340, 50%, 85%);
+  --color-two: hsl(267, 37%, 52%);
+  font-size: 3.5rem;
+  background: linear-gradient(
+      90deg,
+      var(--color-one),
+      var(--color-two),
+      var(--color-one)
+    )
+    0 0 / var(--bg-size) 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: move-bg 8s infinite linear;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .boujee-text {
+    animation: move-bg 8s linear infinite;
+  }
+  @keyframes move-bg {
+    to {
+      background-position: var(--bg-size) 0;
+    }
+  }
+}

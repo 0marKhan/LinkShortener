@@ -1,0 +1,24 @@
+.link-result {
+  display: flex;
+  justify-content: center;
+}
+
+.link-result p {
+  margin: 2rem 2rem 0 0;
+  color: #fff;
+  border: 1px solid hsl(267, 37%, 52%);
+  padding: 0.5rem 1rem;
+}
+
+.link-result button {
+  margin: 2rem 2rem 0 0;
+  padding: 0.5rem 1rem;
+  background-color: hsl(267, 37%, 52%);
+  border: none;
+  color: #fff;
+}
+
+.link-result .link-copied {
+  background-color: hsl(340, 50%, 85%);
+  color: hsl(267, 37%, 52%);
+}
