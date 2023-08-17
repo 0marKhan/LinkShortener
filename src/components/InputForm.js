@@ -1,11 +1,17 @@
 import React, { useState } from "react";
 import "./InputForm.css";
 
-const InputForm = (props) => {
+const InputForm = ({ setInputLink }) => {
   const [linkValue, setLinkValue] = useState("");
 
   const linkValueHandler = (event) => {
     setLinkValue(event.target.value);
+  };
+
+  // value being passed to App.js by the setInputLink from props
+  const submitValueHandler = () => {
+    setLinkValue("");
+    setInputLink(linkValue);
   };
 
   return (
@@ -17,7 +23,7 @@ const InputForm = (props) => {
         value={linkValue}
         onChange={linkValueHandler}
       />
-      <button className="shorten-button" onClick={props.setInputLink}>
+      <button className="shorten-button" onClick={submitValueHandler}>
         Shorten
       </button>
     </div>
