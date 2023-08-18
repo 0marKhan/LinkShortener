@@ -4,7 +4,7 @@
 }
 
 .link-result p {
-  margin: 2rem 2rem 0 0;
+  margin: 2rem 1rem 0 2rem;
   color: #fff;
   border: 1px solid hsl(267, 37%, 52%);
   padding: 0.5rem 1rem;
@@ -12,6 +12,7 @@
 
 .link-result button {
   margin: 2rem 2rem 0 0;
+  font-weight: bold;
   padding: 0.5rem 1rem;
   background-color: hsl(267, 37%, 52%);
   border: none;

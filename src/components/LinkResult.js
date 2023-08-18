@@ -58,9 +58,7 @@ const LinkResult = ({ inputLink }) => {
         <div className="link-result">
           <p>{shortenedLink}</p>
           <CopyToClipboard text={shortenedLink} onCopy={linkCopiedHandler}>
-            <button className={linkCopied ? "link-copied" : ""}>
-              Copy to clipboard
-            </button>
+            <button className={linkCopied ? "link-copied" : ""}>Copy</button>
           </CopyToClipboard>
         </div>
       )}
