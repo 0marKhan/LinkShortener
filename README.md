@@ -17,7 +17,8 @@
   - [![Material UI](https://img.shields.io/badge/-Material%20UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)](https://mui.com/)
   - [![Axios](https://img.shields.io/badge/-Axios-46A2F1?style=for-the-badge&logo=axios&logoColor=white)](https://axios-http.com/)
 
-## Click on the image to watch a video demo of the website!
+## Click on the link to watch a video demo of the website!
+[URL Shortener](https://youtu.be/zob83GOvoFA)
 
 
 ## How to get the project working on your device
