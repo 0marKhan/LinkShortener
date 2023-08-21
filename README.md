@@ -18,7 +18,7 @@
   - [![Axios](https://img.shields.io/badge/-Axios-46A2F1?style=for-the-badge&logo=axios&logoColor=white)](https://axios-http.com/)
 
 ## Click on the link to watch a video demo of the website!
-[URL Shortener video link](https://youtu.be/AXc492k2hJk)
+[URL Shortener video link](https://youtu.be/9rNT5x1iU8c)
 
 
 ## How to get the project working on your device
