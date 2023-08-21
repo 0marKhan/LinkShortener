@@ -2,6 +2,10 @@
 
 ## Takes a URL link input, and using shrtcode's API converts that URL into a shorter one which you can easily copy to clipboard
 
+<p align="center">
+    <img src="./LinkShortener.png" alt="website image" width="1347"  border="10"/>
+</p>
+
 - has an input form that passes the user URL to a component that runs it throught the API as an input
 - the API retuns the shorter link, which is conditionally rendered on the screen
 - a copy to clipboard button that lets you easily copy the shortened link
